@@ -5,7 +5,6 @@
     text-align: center;
     float: center;
     margin: auto;
-    font-size
     height: 40px;
     padding-bottom: 0;
 }
@@ -36,7 +35,8 @@
     grid-row-gap: 0; */
     text-align: center;
     text-transform: 50% 50% 50%;
-    line-height: 100px;  
+    line-height: 100px; 
+    margin-right: 50%; 
 }
 
 .cube1 {
@@ -48,7 +48,7 @@ margin-top: 50px;
 text-align: center;
 box-shadow: 0px 0px 15px black;
 border-radius: 10px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; */
 /* text-align: center;
 text-transform: 50% 50% 50%; */
 
@@ -114,21 +114,22 @@ transition: padding .5s
 } 
 
 #panel {
-    position: absolute;
-    height: 600px;
-    right: 75px;
-    width: 250px;
-    top: 145;
-    bottom: 420px;
+    align-self: auto;
+    /* position: right; */
+    height: 400px;
+    /* right: 190px; */
+    width: 400x;
+    /* top: 145; */
+    /* bottom: 420px; */
     box-shadow: 0px 0px 15px black;
     background: #131313;
-    padding: 10px;
+    /* padding: 10px; */
     color: white;
     border-radius: 10px;
     /* transform-origin: 100% 50%; */
     /* transform: translateX(-100%); */
     /* transition: 0.2s ease-in-out; */
-    outline: 0;
+    /* outline: 0; */
 }
 button {
     font-size: 100%;
@@ -145,4 +146,10 @@ button {
     height: 600px;
     margin-left: 58px;
     margin-top: 22px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+   
 }
