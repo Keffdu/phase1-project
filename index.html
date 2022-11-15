@@ -1,14 +1,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <link rel="stylesheet" type="text/css" href="./style.css" />
         <script defer src="./index.js"></script>
     </head>
     <body class="background">
         <div>
-        <h1 class="title">#MOOD.</h1>
-        <h2 class="intro">Pick a Mood</h2>
+        <h1 style="color: white;" class="title">#MOOD.</h1>
+        <p style="color: white;" class="intro">How are you feeling?<br>Choose a playlist...</p>
         </div>
         
     
@@ -51,8 +51,10 @@
         </div>
         
     </div>
-    <div class="search-bar">            
-        <input class="search-bar" type="text" placeholder="Type in your #MOOD...">
+    <div>            
+        <div id="search-results">
+            <input id="search-bar" class="search-bar" type="text" placeholder="Type in your #MOOD...">
+        </div>
     </div>
     <div id="panel" >
         <!-- put embed player in -->

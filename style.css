@@ -1,28 +1,32 @@
 .background {
-    background: #696969;
+    background: #1d1d1d;
 }
 .title {
     text-align: center;
     float: center;
     margin: auto;
-    width: 500px;
-    height: 50px;
+    font-size
+    height: 40px;
+    padding-bottom: 0;
 }
 .intro {
     text-align: center;
     float: center;
     margin: auto;
-    width: 500px;
+    font-weight: lighter;
     height: 50px;
 }
 .search-bar {
-    text-align: left;
-    float: left;
-    margin: 90;
-    width: 500px;
-    height: 50px;
+    text-align: center;
+
+    /* margin-top: 90; */
+    width: 450px;
+    height: 45px;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 312.5px;
+    
+    
 }
 .tile {
     display: grid;
@@ -111,14 +115,15 @@ transition: padding .5s
 
 #panel {
     position: absolute;
-    right: 0;
-    width: 180px;
-    top: 155;
+    height: 600px;
+    right: 75px;
+    width: 250px;
+    top: 145;
     bottom: 420px;
     box-shadow: 0px 0px 15px black;
     background: #131313;
     padding: 10px;
-    color: aliceblue;
+    color: white;
     border-radius: 10px;
     /* transform-origin: 100% 50%; */
     /* transform: translateX(-100%); */
@@ -132,4 +137,12 @@ button {
     padding: 0;
     background: inherit;
     line-height: 5px;
+}
+
+#search-results {
+    background-color:teal;
+    width: 1075px;
+    height: 600px;
+    margin-left: 58px;
+    margin-top: 22px;
 }
